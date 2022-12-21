@@ -26,6 +26,134 @@ body
     padding: 0;
     box-sizing: border-box;
 }
+.booronhi
+{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(68, 169, 252); */
+    box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.452),
+    3px 3px 3px rgb(63, 63, 63);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    animation: qq;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+#b1
+{
+    left: 60px;
+    top: 30px;
+    animation: qqq;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#b2
+{
+    left: 130px;
+    top: 60px;
+    animation: qqqq;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes qq
+{
+    0%
+    {
+        /* background-color: #006dfc; */
+        top: 0px;
+    }
+    20%
+    {
+        top: 50%;
+    }
+    40%
+    {
+        top: 70%;
+    }
+    60%
+    {
+        bottom: 400px;
+    }
+    80%
+    {
+        /* bottom: 100px; */
+        top: 30%;
+    }
+    100%
+    {
+        /* background-color: #e04700; */
+        top: 0px;
+    }
+}
+@keyframes qqq
+{
+    0%
+    {
+        /* background-color: #006dfc; */
+        top: 0px;
+    }
+    20%
+    {
+        top: 50%;
+    }
+    40%
+    {
+        top: 70%;
+    }
+    60%
+    {
+        bottom: 400px;
+    }
+    80%
+    {
+        /* bottom: 100px; */
+        top: 30%;
+    }
+    100%
+    {
+        /* background-color: #e04700; */
+        top: 0px;
+    }
+}
+@keyframes qqqq
+{
+    0%
+    {
+        /* background-color: #006dfc; */
+        top: 0px;
+    }
+    20%
+    {
+        top: 50%;
+    }
+    40%
+    {
+        top: 70%;
+    }
+    60%
+    {
+        bottom: 400px;
+    }
+    80%
+    {
+        /* bottom: 100px; */
+        top: 30%;
+    }
+    100%
+    {
+        /* background-color: #e04700; */
+        top: 0px;
+    }
+}
 
 :root
 {
@@ -437,7 +565,7 @@ body
 .foot .fd .cnt
 {
     width: 25%;
-    height: 100px;
+    height: 120px;
     /* background-color: #fac0c0; */
     display: flex;
     color: white;
@@ -676,7 +804,7 @@ a .hm
     height: 40px;
     background-color: #ffffff54;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     left: 20px;
     display: flex;
     justify-content: center;
